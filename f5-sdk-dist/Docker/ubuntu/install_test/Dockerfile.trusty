@@ -1,5 +1,5 @@
 # Dockerfile
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190425
 
 RUN apt-get update -y && apt-get install software-properties-common -y
 # liberty does not have python-six 1.10.0+
